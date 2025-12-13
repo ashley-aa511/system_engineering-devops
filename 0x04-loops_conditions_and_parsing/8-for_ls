@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script uses a for loop to process items and apply string manipulation to achieve an output
+
+for file in *
+do
+  echo "${file#*-}"
+done
