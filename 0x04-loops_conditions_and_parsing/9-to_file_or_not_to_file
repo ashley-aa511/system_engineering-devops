@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #This script provides information about a file named school using if and else statements
 
 if [ -e school ]
