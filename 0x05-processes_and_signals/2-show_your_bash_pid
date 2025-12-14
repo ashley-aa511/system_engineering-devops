@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A bash script that displays only the lines containing the word "bash"
+
+ps auxf | grep bash
